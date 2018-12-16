@@ -28,18 +28,18 @@ export default class Projects extends Component {
                             <img className='icon' src={require('../images/react.png')} />
                             <img className='icon' src={require('../images/rails.png')} />
                             <span>|</span>
-                            <a target="_blank" href="https://github.com/chelsme/partyHostNative/"><img className='icon' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" href="https://github.com/chelsme/partyHostRails"><img className='icon' src={require('../images/github-be.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostNative/"><img className='icon' src={require('../images/github-fe.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostRails"><img className='icon' src={require('../images/github-be.png')} /></a>
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" href="https://skull-solitaire.herokuapp.com/"><img src={require('../images/mac-skullsolitaire.png')} alt='skullsolitaire' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://skull-solitaire.herokuapp.com/"><img src={require('../images/mac-skullsolitaire.png')} alt='skullsolitaire' /></a>
                         <div className='usedIcons'>
                             <img className='icon' src={require('../images/js.png')} />
                             <img className='icon' src={require('../images/rails.png')} />
                             <span>|</span>
-                            <a target="_blank" href="https://github.com/chelsme/solitaire-fe"><img className='icon' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" href="https://github.com/chelsme/solitaire-be"><img className='icon' src={require('../images/github-be.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-fe"><img className='icon' src={require('../images/github-fe.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-be"><img className='icon' src={require('../images/github-be.png')} /></a>
                             <span>|</span>
                             <div id='login'>
                                 <p style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>Heroku Login:</p>
@@ -49,22 +49,22 @@ export default class Projects extends Component {
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" href="http://lyndonart.netlify.com/"><img src={require('../images/mac-lyndonart.png')} alt='lyndonart' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://lyndonart.netlify.com/"><img src={require('../images/mac-lyndonart.png')} alt='lyndonart' /></a>
                         <div className='usedIcons'>
                             <img className='icon' src={require('../images/html5.png')} />
                             <img className='icon' src={require('../images/css3.png')} />
                             <span>|</span>
-                            <a target="_blank" href="https://github.com/chelsme/lyndonart"><img className='icon' src={require('../images/github.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/lyndonart"><img className='icon' src={require('../images/github.png')} /></a>
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" href="http://www.walthamvisioncare.com/"><img src={require('../images/mac-wvc.png')} alt='wvc' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.walthamvisioncare.com/"><img src={require('../images/mac-wvc.png')} alt='wvc' /></a>
                         <div className='usedIcons'>
                             <img className='icon' src={require('../images/html5.png')} />
                             <img className='icon' src={require('../images/css3.png')} />
                             <img className='icon' src={require('../images/react.png')} />
                             <span>|</span>
-                            <a target="_blank" href="https://github.com/chelsme/WVC"><img className='icon' src={require('../images/github.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/WVC"><img className='icon' src={require('../images/github.png')} /></a>
                         </div>
                     </div>
                 </Slider>
