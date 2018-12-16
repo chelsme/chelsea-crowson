@@ -116,13 +116,13 @@ h2 {
 }
 
 .slick-dots {
-  bottom: -17px;
+  bottom: 70px;
 }
 
 iframe {
 /* .video-react.video-react-fluid { */
   background-color: white;
-  height: 500px;
+  height: 410px;
   width: 360px;
   padding-top: 0 !important;
   margin-bottom: 10px !important;
@@ -186,6 +186,7 @@ button {
 /* ********************************* footer ********************************* */
 footer {
   position: absolute;
+  bottom: 0;
   margin: 10px auto;
   font-size: 14px;
   width: 100%;
