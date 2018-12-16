@@ -59,36 +59,32 @@ h2 {
 }
 
 #blurb {
-  margin: 50px;
+  margin: 20px;
 }
 
 #me {
-  max-width: 370px;
+  max-height: 670px;
   position: fixed;
   right: 3px;
   bottom: 0;
 }
 
 #languageIcons {
-  height: 120px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 50px;
 }
 
-#languageIcons i {
-  font-size: 120px !important;
-  margin: 10px;
-}
-
 .icon {
+  height: 100px;
   width: 100px;
   margin: 10px;
 }
 
-i {
-  font-size: 60px !important;
+.atw {
+  height: 60px;
+  width: 60px;
   margin: 10px;
 }
 
@@ -184,7 +180,8 @@ button {
 
 /* ********************************* footer ********************************* */
 footer {
-  margin: 10px;
+  position: absolute;
+  margin: 10px auto;
   font-size: 14px;
-  /* width: 80%; */
+  width: 100%;
 }
