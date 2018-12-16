@@ -52,6 +52,7 @@ a:hover {
 /* ********************************* body ********************************* */
 #main {
   margin-left: 2%;
+  height: 82vh;
 }
 
 h2 {
@@ -106,12 +107,16 @@ h2 {
 }
 
 .slick-slide img {
-  height: 510px;
+  height: 420px;
   margin: auto;
 }
 
 .slick-next:before, .slick-prev:before {
   color: #282c34;
+}
+
+.slick-dots {
+  bottom: -17px;
 }
 
 iframe {
