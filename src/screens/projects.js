@@ -21,7 +21,7 @@ export default class Projects extends Component {
                             autoPlay={false}
                             poster={require('../images/partyhost.png')}
                         >
-                            <source src={'https://youtu.be/NFlp6b1dGWo'} />
+                            <source src={require('https://vimeo.com/306603374')} />
                         </Player>
                         {/* <iframe src="https://player.vimeo.com/video/306603374?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
                         <div className='usedIcons'>
