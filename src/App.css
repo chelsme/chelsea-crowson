@@ -107,7 +107,7 @@ h2 {
 }
 
 .slick-slide img {
-  height: 420px;
+  width: 50vw;
   margin: auto;
 }
 
@@ -119,8 +119,8 @@ h2 {
   bottom: 70px;
 }
 
-iframe {
-/* .video-react.video-react-fluid { */
+/* iframe { */
+.video-react.video-react-fluid {
   background-color: white;
   height: 410px;
   width: 360px;

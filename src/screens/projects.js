@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
-// import { Player } from 'video-react';
+import { Player } from 'video-react';
 
 export default class Projects extends Component {
     render() {
@@ -17,13 +17,13 @@ export default class Projects extends Component {
                 <Slider {...settings}>
                     <div>
                         {/* <iframe allowtransparency="true" style={{ background: 'white' }} src="https://www.youtube.com/embed/NFlp6b1dGWo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-                        {/* <Player
+                        <Player
                             autoPlay={false}
                             poster={require('../images/partyhost.png')}
                         >
-                            <source src={require('https://vimeo.com/user92862613/review/306603374/cf2a7d9c3d')} />
-                        </Player> */}
-                        <iframe src="https://player.vimeo.com/video/306603374?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <source src={'https://youtu.be/NFlp6b1dGWo'} />
+                        </Player>
+                        {/* <iframe src="https://player.vimeo.com/video/306603374?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
                         <div className='usedIcons'>
                             <img alt='react icon' className='icon' src={require('../images/react.png')} />
                             <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
