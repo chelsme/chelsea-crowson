@@ -125,9 +125,9 @@ h2 {
   bottom: 75px;
 }
 
-/* iframe { */
-.video-react.video-react-fluid {
-  background-color: white;
+iframe {
+/* .video-react.video-react-fluid { */
+  background-color: transparent;
   height: 530px;
   width: 360px;
   padding-top: 0 !important;
