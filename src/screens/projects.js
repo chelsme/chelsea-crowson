@@ -19,17 +19,17 @@ export default class Projects extends Component {
                         {/* <iframe allowtransparency="true" style={{ background: 'white' }} src="https://www.youtube.com/embed/NFlp6b1dGWo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                         <Player
                             autoPlay={false}
-                            poster={require('../images/partyhost.png')}
+                        // poster={require('../images/partyhost.png')}
                         >
-                            <source src={'https://vimeo.com/306603374'} />
+                            <source src={require('../images/PartyHost.mov')} />
                         </Player>
-                        {/* <iframe src="https://player.vimeo.com/video/306603374?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
+                        {/* <iframe title='partyhost' src="https://player.vimeo.com/video/306603374?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
                         <div className='usedIcons'>
                             <img alt='react icon' className='icon' src={require('../images/react.png')} />
                             <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
                             <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostNative/"><img className='icon' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostRails"><img className='icon' src={require('../images/github-be.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostNative/"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostRails"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
                         </div>
                     </div>
                     <div>
@@ -38,8 +38,8 @@ export default class Projects extends Component {
                             <img alt='js icon' className='icon' src={require('../images/js.png')} />
                             <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
                             <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-fe"><img className='icon' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-be"><img className='icon' src={require('../images/github-be.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-fe"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-be"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
                             <span>|</span>
                             <div id='login'>
                                 <p style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>Heroku Login:</p>
@@ -54,7 +54,7 @@ export default class Projects extends Component {
                             <img alt='html icon' className='icon' src={require('../images/html5.png')} />
                             <img alt='css icon' className='icon' src={require('../images/css3.png')} />
                             <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/lyndonart"><img className='icon' src={require('../images/github.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/lyndonart"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
                         </div>
                     </div>
                     <div>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                             <img alt='css icon' className='icon' src={require('../images/css3.png')} />
                             <img alt='react icon' className='icon' src={require('../images/react.png')} />
                             <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/WVC"><img className='icon' src={require('../images/github.png')} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/WVC"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
                         </div>
                     </div>
                 </Slider>
