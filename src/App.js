@@ -19,6 +19,7 @@ export default class App extends Component {
                 <NavLink activeClassName="active" to="/projects">Projects</NavLink>
                 <NavLink activeClassName="active" to="/contact">Contact</NavLink>
               </nav>
+              <img id='circle' alt='headshot' src={require('./images/circle.png')} />
             </header>
             <div id="main">
               <img id='me' alt='profile pic' src={require('./images/profile.png')} />
