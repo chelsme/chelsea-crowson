@@ -17,13 +17,13 @@ export default class Projects extends Component {
                 <Slider {...settings}>
                     <div>
                         {/* <iframe allowtransparency="true" style={{ background: 'white' }} src="https://www.youtube.com/embed/NFlp6b1dGWo?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-                        <Player
+                        {/* <Player
                             autoPlay={false}
                             poster={require('../images/partyhost.png')}
                         >
                             <source src={require('../images/partyhostframe.mov')} />
-                        </Player>
-                        {/* <iframe title='partyhost' src="https://player.vimeo.com/video/306875270?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> */}
+                        </Player> */}
+                        <iframe title='partyhost' src="https://player.vimeo.com/video/306875270?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <div className='usedIcons'>
                             <img alt='react icon' className='icon' src={require('../images/react.png')} />
                             <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
