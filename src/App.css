@@ -151,6 +151,11 @@ h2 {
   z-index: 1;
 }
 
+video {
+  height: 525px;
+  width: 320px;
+}
+
 .video-react .video-react-poster {
   background-color: white;
 }
