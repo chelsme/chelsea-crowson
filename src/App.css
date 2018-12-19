@@ -237,6 +237,7 @@ footer {
   }
 }
 
+/* ************* ipad ************* */
 @media screen and (min-height: 1000px) {
   .App-header {
     display: flex;
@@ -281,7 +282,6 @@ footer {
   }
 }
 
-/* ********** ipad ********** */
 @media screen and (max-width: 900px) and (max-height: 900px) {
   .App-header {
     display: flex;
@@ -325,6 +325,52 @@ footer {
 
   form {
     padding: 20px;
+  }
+}
+
+@media screen and (max-width: 820px) and (orientation: landscape) {
+  .App-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #circle {
+    width: 80px;
+    top: 5px;
+  }
+  
+  h1, nav {
+    position: unset;
+  }
+
+  h1 {
+    margin: 0 3% 0 10px;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #blurb {
+    font-size: .8em;
+    margin: 10px;
+  }
+
+  #languageIcons {
+    margin: 10px;
+  }
+
+  .icon {
+    height: 10%;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 575px) and (orientation: landscape) {
+  #circle {
+    width: 70px;
+    right: 10px;
   }
 }
 
