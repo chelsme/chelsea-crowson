@@ -22,10 +22,10 @@ export default class About extends Component {
                 </div>
 
                 <h2>Around the Web</h2>
-                {/* <a href='https://www.linkedin.com/in/chelseacrowson/'><i className="fab fa-linkedin-square" /></a> */}
-                {/* <a href='https://github.com/chelsme'><i className="fab fa-github-square" /></a> */}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chelseacrowson/"><img className='atw' alt='linkedin' src={require('../images/linkedin.png')} /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme"><img className='atw' alt='github' src={require('../images/github.png')} /></a>
+                <div id='webIcons'>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chelseacrowson/"><img className='atw' alt='linkedin' src={require('../images/linkedin.png')} /></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme"><img className='atw' alt='github' src={require('../images/github.png')} /></a>
+                </div>
             </div>
         )
     }
