@@ -27,9 +27,9 @@ export default class App extends Component {
               <Route path="/projects" component={Projects} />
               <Route path="/contact" component={Contact} />
             </div>
-            <footer>&copy; Chelsea Crowson 2018. All rights reserved.</footer>
           </div>
         </Router>
+        <footer>&copy; Chelsea Crowson 2018. All rights reserved.</footer>
       </div>
     );
   }
