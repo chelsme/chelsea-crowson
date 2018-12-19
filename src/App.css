@@ -40,6 +40,7 @@ h1 {
 
 nav {
   margin-right: 30px;
+  background-color: white;
 }
 
 nav a {
@@ -66,13 +67,9 @@ a:hover {
 }
 
 /* ********************************* body ********************************* */
-/* #main {
-  margin-left: 2%;
-  height: 82vh;
-} */
-
 h2 {
-  margin: 0 0 15px 0;
+  padding: 15px;
+  margin: 0;
 }
 
 #blurb {
@@ -103,7 +100,7 @@ h2 {
 .atw {
   height: 60px;
   width: 60px;
-  margin: 10px;
+  padding: 10px;
 }
 
 /* ********************************* projects ********************************* */
@@ -239,6 +236,7 @@ footer {
   }
 }
 
+/* ********************************* media queries ********************************* */
 @media screen and (max-width: 800px) {
   .App-header {
     display: flex;
@@ -272,7 +270,8 @@ footer {
   }
 
   h2 {
-    margin-top: 20px;
+    padding: 5px;
+    padding-bottom: 0;
   }
 
   form {
@@ -297,7 +296,6 @@ footer {
 
   h2 {
     font-size: 1.2em;
-    margin: 12px;
   }
 
   #blurb {
@@ -316,9 +314,9 @@ footer {
     padding-top: 10px;
   }
 
-  h2 {
+  /* h2 {
     margin: 10px;
-  }
+  } */
 
   #blurb {
     font-size: .9em;
@@ -332,11 +330,12 @@ footer {
   }
   
   nav {
-    top: 50px;
+    top: 35px;
   }
   
   h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    top: 0;
   }
   
   nav a {
@@ -349,16 +348,17 @@ footer {
 
   h2 {
     font-size: 1em;
+    padding: 0;
   }
 
   #main {
     font-size: .85em;
+    padding-top: 10px;
   }
 
   .atw {
     height: 40px;
     width: 40px;
-    margin-top: 0;
   }
 
   form {
@@ -367,7 +367,7 @@ footer {
 
   form h2 {
     padding: 20px 0;
-    margin: 0;
+    /* margin: 0; */
   }
 
   form p {
