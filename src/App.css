@@ -432,7 +432,11 @@ footer {
 
   .projectImg {
     margin: 40px auto !important;
-    width: 80% !important;
+    width: 70% !important;
+  }
+
+  form h2 {
+    margin-bottom: 10px;
   }
 }
 
