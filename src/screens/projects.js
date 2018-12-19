@@ -25,22 +25,30 @@ export default class Projects extends Component {
                         </Player> */}
                         <iframe title='partyhost' src="https://player.vimeo.com/video/306875270?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <div className='usedIcons'>
-                            <img alt='react icon' className='icon' src={require('../images/react.png')} />
-                            <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
-                            <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostNative/"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostRails"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
+                            <div className='langIcon'>
+                                <img alt='react icon' className='icon' src={require('../images/react.png')} />
+                                <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
+                            </div>
+                            <span className='pipe'>|</span>
+                            <div className='githubIcon'>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostNative/"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/partyHostRails"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://skull-solitaire.herokuapp.com/"><img src={require('../images/mac-skullsolitaire.png')} alt='skullsolitaire' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://skull-solitaire.herokuapp.com/"><img className='projectImg' src={require('../images/mac-skullsolitaire.png')} alt='skullsolitaire' /></a>
                         <div className='usedIcons'>
-                            <img alt='js icon' className='icon' src={require('../images/js.png')} />
-                            <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
-                            <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-fe"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-be"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
-                            <span>|</span>
+                            <div className='langIcon'>
+                                <img alt='js icon' className='icon' src={require('../images/js.png')} />
+                                <img alt='rails icon' className='icon' src={require('../images/rails.png')} />
+                            </div>
+                            <span className='pipe'>|</span>
+                            <div className='githubIcon'>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-fe"><img className='icon' alt='githubfe' src={require('../images/github-fe.png')} /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/solitaire-be"><img className='icon' alt='githubbe' src={require('../images/github-be.png')} /></a>
+                            </div>
+                            <span className='pipe'>|</span>
                             <div id='login'>
                                 <p style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>Heroku Login:</p>
                                 <p>username: chelsea</p>
@@ -49,22 +57,30 @@ export default class Projects extends Component {
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" rel="noopener noreferrer" href="http://lyndonart.netlify.com/"><img src={require('../images/mac-lyndonart.png')} alt='lyndonart' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://lyndonart.netlify.com/"><img className='projectImg' src={require('../images/mac-lyndonart.png')} alt='lyndonart' /></a>
                         <div className='usedIcons'>
-                            <img alt='html icon' className='icon' src={require('../images/html5.png')} />
-                            <img alt='css icon' className='icon' src={require('../images/css3.png')} />
-                            <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/lyndonart"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
+                            <div className='langIcon'>
+                                <img alt='html icon' className='icon' src={require('../images/html5.png')} />
+                                <img alt='css icon' className='icon' src={require('../images/css3.png')} />
+                            </div>
+                            <span className='pipe'>|</span>
+                            <div className='githubIcon'>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/lyndonart"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <a target="_blank" rel="noopener noreferrer" href="http://www.walthamvisioncare.com/"><img src={require('../images/mac-wvc.png')} alt='wvc' /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.walthamvisioncare.com/"><img className='projectImg' src={require('../images/mac-wvc.png')} alt='wvc' /></a>
                         <div className='usedIcons'>
-                            <img alt='html icon' className='icon' src={require('../images/html5.png')} />
-                            <img alt='css icon' className='icon' src={require('../images/css3.png')} />
-                            <img alt='react icon' className='icon' src={require('../images/react.png')} />
-                            <span>|</span>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/WVC"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
+                            <div className='langIcon'>
+                                <img alt='html icon' className='icon' src={require('../images/html5.png')} />
+                                <img alt='css icon' className='icon' src={require('../images/css3.png')} />
+                                <img alt='react icon' className='icon' src={require('../images/react.png')} />
+                            </div>
+                            <span className='pipe'>|</span>
+                            <div className='githubIcon'>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chelsme/WVC"><img className='icon' alt='github' src={require('../images/github.png')} /></a>
+                            </div>
                         </div>
                     </div>
                 </Slider>

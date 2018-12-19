@@ -130,7 +130,7 @@ h2 {
 }
 
 .slick-next:before, .slick-prev:before {
-  color: #282c34;
+  color: #813326;
 }
 
 .slick-dots {
@@ -172,6 +172,11 @@ video {
 
 .usedIcons span {
   margin-top: -15px
+}
+
+.langIcon, .githubIcon, #login {
+  display: flex;
+  flex-direction: row;
 }
 
 #login {
@@ -235,6 +240,10 @@ footer {
   #languageIcons {
     margin: 3%;
   }
+
+  .slick-slider {
+    width: 90%;
+  }
 }
 
 /* ************* ipad ************* */
@@ -277,8 +286,35 @@ footer {
     height: 15%;
   }
 
+  #projects {
+    text-align: center;
+    width: 95%;
+  }
+
+  .langIcon, .githubIcon, #login {
+    justify-content: center;
+    width: 75%;
+  }
+  
+  .usedIcons {
+    flex-direction: column;
+  }
+
+  .pipe {
+    display: none;
+  }
+
+  .projectImg {
+    margin: 40px auto !important;
+  }
+  
+  .slick-slider {
+    width: unset;
+  }
+
   footer {
-    width: 65%;
+    margin: 0;
+    width: 75%;
   }
 }
 
@@ -365,12 +401,53 @@ footer {
     height: 10%;
     width: 10%;
   }
+
+  .projectImg {
+    width: 65% !important;
+    margin: 10px auto !important;
+  }
+
+  iframe {
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .langIcon, .githubIcon, #login {
+    justify-content: center;
+  }
+  
+  .usedIcons {
+    flex-direction: column;
+  }
+
+  .pipe {
+    display: none;
+  }
+
+  #projects {
+    width: 95%;
+    margin: auto;
+  }
+
+  .projectImg {
+    margin: 40px auto !important;
+    width: 99% !important;
+  }
 }
 
 @media screen and (max-width: 575px) and (orientation: landscape) {
   #circle {
     width: 70px;
     right: 10px;
+  }
+
+  iframe {
+    height: 220px;
+  }
+
+  .projectImg {
+    margin: 0 auto !important;
   }
 }
 
@@ -455,13 +532,21 @@ footer {
     width: 40px;
   }
 
+  #projects {
+    width: 90%;
+  }
+
+  iframe {
+    height: 290px;
+    width: 270px;
+  }
+
   form {
     padding: 0;
   }
 
   form h2 {
     padding: 20px 0;
-    /* margin: 0; */
   }
 
   form p {
