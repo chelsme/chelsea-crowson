@@ -73,7 +73,7 @@ h2 {
 }
 
 #blurb {
-  margin: 20px;
+  margin: 0 40px;
 }
 
 #me {
@@ -192,11 +192,11 @@ video {
 
 /* ********************************* contact ********************************* */
 form {
-  padding: 80px;
+  padding: 50px;
 }
 
 form h2 {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 input, textarea{
@@ -355,7 +355,7 @@ footer {
   }
 
   h2 {
-    padding: 10px;
+    padding: 20px;
     padding-bottom: 0;
   }
 
@@ -365,25 +365,11 @@ footer {
 }
 
 @media screen and (max-width: 820px) and (orientation: landscape) {
-  .App-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  #circle {
+  /* #circle {
     width: 80px;
     top: 5px;
-  }
+  } */
   
-  h1, nav {
-    position: unset;
-  }
-
-  h1 {
-    margin: 0 3% 0 10px;
-  }
-
   h2 {
     font-size: 1.1em;
   }
@@ -472,10 +458,6 @@ footer {
 
   #main {
     padding-top: 10px;
-  }
-
-  h2 {
-    font-size: 1.2em;
   }
 
   #blurb {
