@@ -123,6 +123,8 @@ h2 {
 .slick-slide img {
   margin: auto;
   width: 90%;
+  height: 90%;
+  max-height: 455px;
 }
 
 .slick-next {
@@ -140,16 +142,15 @@ h2 {
 iframe {
 /* .video-react.video-react-fluid { */
   background-color: transparent;
-  height: 455px;
+  height: 450px;
   width: 320px;
   padding-top: 0 !important;
-  margin-bottom: 10px !important;
   margin: auto;
   z-index: 1;
 }
 
 video {
-  height: 455px;
+  height: 450px;
   width: 320px;
 }
 
